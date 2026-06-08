@@ -55,14 +55,14 @@ export default function Contact() {
                 <p className="text-center mb-4 text-gray-400">Send us your questions or concerns via email</p>
                 <div className="flex justify-center w-full min-w-0 overflow-hidden px-4">
                   <a
-                    href="mailto:support@cardrummy.pk"
+                    href="mailto:cardrummypk.site@gmail.com"
                     aria-label="Send email to Card Rummy support"
                     className="inline-flex flex-wrap items-center justify-center gap-x-2 gap-y-1 bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-4 md:py-4 md:px-6 rounded-full text-sm sm:text-base md:text-lg transition-all duration-300 shadow-lg hover:shadow-xl max-w-full min-w-0 overflow-hidden"
                   >
                     <svg className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                     </svg>
-                    <span className="break-all">support@cardrummy.pk</span>
+                    <span className="break-all">cardrummypk.site@gmail.com</span>
                   </a>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function Contact() {
               "url": "https://cardrummy.pk",
               "contactPoint": {
                 "@type": "ContactPoint",
-                "email": "support@cardrummy.pk",
+                "email": "cardrummypk.site@gmail.com",
                 "contactType": "Customer Support",
                 "availableLanguage": ["English", "Urdu"]
               }
