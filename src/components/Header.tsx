@@ -7,7 +7,7 @@ import MobileNavigation from './MobileNavigation';
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/download-card-rummy', label: 'Download' },
+  { href: '/download-card-rummy-apk', label: 'Download' },
   { href: '/deposit-money-in-card-rummy', label: 'Deposit' },
   { href: '/withdraw-money-from-card-rummy', label: 'Withdraw' },
   { href: '/card-rummy-for-pc', label: 'PC Version' },

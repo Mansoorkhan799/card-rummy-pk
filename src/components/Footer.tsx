@@ -26,7 +26,7 @@ export default function Footer() {
             <h2 className="text-lg font-semibold mb-4 text-accent">Quick Links</h2>
             <ul className="space-y-2 text-sm">
               <li><Link href="/" className="text-gray-300 hover:text-accent transition-colors">Home</Link></li>
-              <li><Link href="/download-card-rummy" className="text-gray-300 hover:text-accent transition-colors">Download</Link></li>
+              <li><Link href="/download-card-rummy-apk" className="text-gray-300 hover:text-accent transition-colors">Download</Link></li>
               <li><Link href="/card-rummy-for-pc" className="text-gray-300 hover:text-accent transition-colors">PC Version</Link></li>
               <li><Link href="/blog" className="text-gray-300 hover:text-accent transition-colors">Blog</Link></li>
               <li><Link href="/about-us" className="text-gray-300 hover:text-accent transition-colors">About Us</Link></li>

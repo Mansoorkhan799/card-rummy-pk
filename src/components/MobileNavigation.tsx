@@ -73,7 +73,7 @@ const sections = [
     label: 'MAIN',
     items: [
       { href: '/', label: 'Home', Icon: HomeIcon },
-      { href: '/download-card-rummy', label: 'Download', Icon: DownloadIcon },
+      { href: '/download-card-rummy-apk', label: 'Download', Icon: DownloadIcon },
       { href: '/card-rummy-for-pc', label: 'PC Version', Icon: MonitorIcon },
     ],
   },

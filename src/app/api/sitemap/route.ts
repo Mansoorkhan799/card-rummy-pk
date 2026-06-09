@@ -66,7 +66,7 @@ export async function GET() {
       ]
     },
     {
-      url: '/download-card-rummy',
+      url: '/download-card-rummy-apk',
       lastMod: '2026-06-08',
       changeFreq: 'weekly',
       priority: 0.9,

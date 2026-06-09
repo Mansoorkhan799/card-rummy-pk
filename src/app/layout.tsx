@@ -292,7 +292,7 @@ export default function RootLayout({
               "description": "Card Rummy is Pakistan's leading online card game platform. Play 30+ card games including Teen Patti, Classic Rummy, 3 Patti Card Rummy, Dragon vs Tiger and earn real cash via JazzCash & EasyPaisa.",
               "url": "https://cardrummy.pk",
               "downloadUrl": "https://pkcardrummy.com/?from_gameid=6191689&channelCode=6113272",
-              "installUrl": "https://cardrummy.pk/download-card-rummy",
+              "installUrl": "https://cardrummy.pk/download-card-rummy-apk",
               "softwareVersion": "V1.230",
               "fileSize": "49 MB",
               "datePublished": "2023-01-01",

@@ -25,6 +25,12 @@ const nextConfig = {
 
   async redirects() {
     return [
+      // Old download slug → new slug with APK
+      {
+        source: '/download-card-rummy',
+        destination: '/download-card-rummy-apk',
+        permanent: true,
+      },
       // /about was indexed by Google but the real page is /about-us
       {
         source: '/about',

@@ -38,7 +38,7 @@ Disallow: /api/
 Disallow: /admin/
 
 # Priority pages
-Allow: /download-card-rummy
+Allow: /download-card-rummy-apk
 Allow: /deposit-money-in-card-rummy
 Allow: /withdraw-money-from-card-rummy
 Allow: /card-rummy-for-pc

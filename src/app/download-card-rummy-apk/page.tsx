@@ -29,12 +29,12 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://cardrummy.pk/download-card-rummy",
+    canonical: "https://cardrummy.pk/download-card-rummy-apk",
   },
   openGraph: {
     title: 'Download Card Rummy APK & 3 Patti Card Rummy – Free for Android 2026',
     description: 'Download Card Rummy APK free. Play Classic Rummy, 3 Patti Card Rummy, earn real cash with JazzCash & EasyPaisa. 500K+ downloads!',
-    url: "https://cardrummy.pk/download-card-rummy",
+    url: "https://cardrummy.pk/download-card-rummy-apk",
     siteName: "Card Rummy",
     locale: "en_PK",
     type: "website",
@@ -101,7 +101,7 @@ export default function DownloadPage() {
             "@type": "BreadcrumbList",
             "itemListElement": [
               { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cardrummy.pk" },
-              { "@type": "ListItem", "position": 2, "name": "Download Card Rummy", "item": "https://cardrummy.pk/download-card-rummy" }
+              { "@type": "ListItem", "position": 2, "name": "Download Card Rummy", "item": "https://cardrummy.pk/download-card-rummy-apk" }
             ]
           })
         }}
@@ -131,35 +131,35 @@ export default function DownloadPage() {
                 "position": 1,
                 "name": "Visit Official Site",
                 "text": "Open your browser and go to cardrummy.pk. Tap the Download button on the homepage.",
-                "url": "https://cardrummy.pk/download-card-rummy#step1"
+                "url": "https://cardrummy.pk/download-card-rummy-apk#step1"
               },
               {
                 "@type": "HowToStep",
                 "position": 2,
                 "name": "Download the APK",
                 "text": "The APK file (49 MB) will begin downloading. Keep your screen on and wait for it to finish.",
-                "url": "https://cardrummy.pk/download-card-rummy#step2"
+                "url": "https://cardrummy.pk/download-card-rummy-apk#step2"
               },
               {
                 "@type": "HowToStep",
                 "position": 3,
                 "name": "Enable Unknown Apps",
                 "text": "Go to Settings → Security → Install Unknown Apps and enable it for your browser or file manager.",
-                "url": "https://cardrummy.pk/download-card-rummy#step3"
+                "url": "https://cardrummy.pk/download-card-rummy-apk#step3"
               },
               {
                 "@type": "HowToStep",
                 "position": 4,
                 "name": "Install the APK",
                 "text": "Open your Downloads folder, tap the Card Rummy APK file, then tap Install. Installation takes under 30 seconds.",
-                "url": "https://cardrummy.pk/download-card-rummy#step4"
+                "url": "https://cardrummy.pk/download-card-rummy-apk#step4"
               },
               {
                 "@type": "HowToStep",
                 "position": 5,
                 "name": "Open and Register",
                 "text": "Tap Open, create your account with your mobile number, verify via OTP, and claim your welcome bonus.",
-                "url": "https://cardrummy.pk/download-card-rummy#step5"
+                "url": "https://cardrummy.pk/download-card-rummy-apk#step5"
               }
             ]
           })
