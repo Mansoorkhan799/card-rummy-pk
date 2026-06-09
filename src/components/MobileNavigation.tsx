@@ -108,11 +108,21 @@ export default function MobileNavigation() {
 
   useEffect(() => {
     if (isOpen) {
+      const scrollY = window.scrollY;
       document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.left = '0';
+      document.body.style.right = '0';
+      return () => {
+        document.body.style.overflow = '';
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.left = '';
+        document.body.style.right = '';
+        window.scrollTo(0, scrollY);
+      };
     }
-    return () => { document.body.style.overflow = ''; };
   }, [isOpen]);
 
   const openMenu = () => startTransition(() => setIsOpen(true));
@@ -186,7 +196,7 @@ export default function MobileNavigation() {
         </div>
 
         {/* Scrollable nav */}
-        <nav className="flex-1 overflow-y-auto py-3 px-4 space-y-5">
+        <nav className="flex-1 overflow-y-auto overscroll-contain py-3 px-4 space-y-5">
           {sections.map((section) => (
             <div key={section.label}>
               <p className="text-[10px] font-semibold tracking-widest text-gray-500 uppercase mb-1 px-1">
