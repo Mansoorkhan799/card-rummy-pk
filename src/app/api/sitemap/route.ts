@@ -74,12 +74,12 @@ export async function GET() {
         {
           loc: '/card-rummy.webp',
           title: 'Download Card Rummy APK',
-          caption: 'Download Card Rummy APK V1.230 free for Android'
+          caption: 'Download Card Rummy APK V1.231 free for Android'
         },
         {
           loc: '/card-rummy-game-pakistan.webp',
           title: 'Card Rummy Game Interface',
-          caption: 'Card Rummy V1.230 game interface preview'
+          caption: 'Card Rummy V1.231 game interface preview'
         }
       ]
     },

@@ -293,10 +293,10 @@ export default function RootLayout({
               "url": "https://cardrummy.pk",
               "downloadUrl": "https://pkcardrummy.com/?from_gameid=6191689&channelCode=6113272",
               "installUrl": "https://cardrummy.pk/download-card-rummy-apk",
-              "softwareVersion": "V1.230",
+              "softwareVersion": "V1.231",
               "fileSize": "49 MB",
               "datePublished": "2023-01-01",
-              "dateModified": "2026-06-08",
+              "dateModified": "2026-06-11",
               "inLanguage": ["en", "ur"],
               "countriesSupported": "PK",
               "offers": {

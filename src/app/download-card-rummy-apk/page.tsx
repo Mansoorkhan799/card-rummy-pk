@@ -5,7 +5,7 @@ import DownloadButton from '@/components/DownloadButton';
 
 export const metadata: Metadata = {
   title: 'Download Card Rummy APK & 3 Patti Card Rummy – Free for Android 2026',
-  description: 'Download Card Rummy APK free for Android. Play Classic Rummy, 3 Patti Card Rummy, 7-card & 10-card rummy online. V1.230, 49 MB, Android 5.0+. Earn real cash via JazzCash & EasyPaisa Pakistan.',
+  description: 'Download Card Rummy APK free for Android. Play Classic Rummy, 3 Patti Card Rummy, 7-card & 10-card rummy online. V1.231, 49 MB, Android 5.0+. Earn real cash via JazzCash & EasyPaisa Pakistan.',
   keywords: [
     'Download Card Rummy',
     'Card Rummy APK download',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     '7 card rummy rules',
     '10 card rummy rules',
     'Card Rummy APK Pakistan',
-    'Card Rummy V1.230',
+    'Card Rummy V1.231',
     'Teen Patti download Pakistan',
   ],
   robots: {
@@ -76,10 +76,10 @@ export default function DownloadPage() {
       "bestRating": "5"
     },
     "downloadUrl": "https://pkcardrummy.com/?from_gameid=6191689&channelCode=6113272",
-    "softwareVersion": "V1.230",
+    "softwareVersion": "V1.231",
     "fileSize": "49 MB",
     "datePublished": "2026-06-08",
-    "dateModified": "2026-06-08",
+    "dateModified": "2026-06-11",
     "description": "Card Rummy is Pakistan's leading card gaming app. Play Classic Rummy, 3 Patti Card Rummy, 7-card rummy, 10-card rummy, Teen Patti, Dragon vs Tiger and 30+ games. Earn real cash via JazzCash & EasyPaisa.",
     "image": "https://cardrummy.pk/card-rummy.webp",
     "author": { "@type": "Organization", "name": "ErioCardRummy Dev" },
@@ -205,7 +205,7 @@ export default function DownloadPage() {
               {
                 "@type": "Question",
                 "name": "What is the latest version of Card Rummy?",
-                "acceptedAnswer": { "@type": "Answer", "text": "V1.230, updated June 8, 2026. Always download the latest version for best performance and security." }
+                "acceptedAnswer": { "@type": "Answer", "text": "V1.231, updated June 11, 2026. Always download the latest version for best performance and security." }
               },
               {
                 "@type": "Question",
@@ -233,7 +233,7 @@ export default function DownloadPage() {
         <h1 className="text-3xl md:text-5xl font-bold text-white mb-3">
           Download <span className="text-accent">3 Patti Card Rummy</span> APK Free for Android
         </h1>
-        <p className="text-gray-400 text-lg mb-2">V1.230 · 49 MB · Android 5.0+ · Updated June 8, 2026</p>
+        <p className="text-gray-400 text-lg mb-2">V1.231 · 49 MB · Android 5.0+ · Updated June 11, 2026</p>
         <p className="text-gray-300 max-w-2xl mx-auto mb-8">
           The official Card Rummy APK for Android — Pakistan&apos;s most engaging card game combining Classic Rummy, 3 Patti Card Rummy, 7-card &amp; 10-card rummy modes, and 30+ live multiplayer games. Withdraw winnings instantly to JazzCash or EasyPaisa. Free to download.
         </p>
@@ -289,10 +289,10 @@ export default function DownloadPage() {
               {[
                 ["App Name", "Card Rummy"],
                 ["Developer", "ErioCardRummy Dev"],
-                ["Latest Version", "V1.230"],
+                ["Latest Version", "V1.231"],
                 ["File Size", "49 MB"],
                 ["Required OS", "Android 5.0+"],
-                ["Last Updated", "June 8, 2026"],
+                ["Last Updated", "June 11, 2026"],
                 ["Total Downloads", "500K+"],
                 ["Rating", "4.8 / 5 ⭐ (200K+ reviews)"],
                 ["Languages", "English, Urdu"],
@@ -319,7 +319,7 @@ export default function DownloadPage() {
           className="rounded-2xl mx-auto shadow-lg w-full max-w-2xl"
           loading="lazy"
         />
-        <p className="text-xs text-gray-500 mt-2">Card Rummy V1.230 – Game interface preview</p>
+        <p className="text-xs text-gray-500 mt-2">Card Rummy V1.231 – Game interface preview</p>
       </section>
 
       {/* How to Download */}
@@ -391,7 +391,7 @@ export default function DownloadPage() {
 
       {/* What's New */}
       <section className="py-10 px-4 max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold text-accent mb-5">What&apos;s New in V1.230</h2>
+        <h2 className="text-2xl font-bold text-accent mb-5">What&apos;s New in V1.231</h2>
         <ul className="space-y-2 text-sm text-gray-300 max-w-2xl list-none">
           {[
             "New card and slot games added to the library",
@@ -445,7 +445,7 @@ export default function DownloadPage() {
                 ["APK won't download", "Switch between Wi-Fi and mobile data. Free up 500 MB+ storage and retry."],
                 ["\"Install blocked\" error", "Enable 'Install Unknown Apps' for your browser in phone Settings."],
                 ["App won't open after install", "Restart your phone, then tap the Card Rummy icon again."],
-                ["App crashes on launch", "Clear the app cache or reinstall the latest V1.230 APK."],
+                ["App crashes on launch", "Clear the app cache or reinstall the latest V1.231 APK."],
                 ["Download very slow", "Move to a stronger Wi-Fi or 4G signal and retry."],
               ].map(([prob, sol], i) => (
                 <tr key={prob} className={i % 2 === 0 ? "bg-white/5" : "bg-transparent"}>
@@ -499,7 +499,7 @@ export default function DownloadPage() {
             { q: "What are the rules of 7 card rummy?", a: "In 7-card rummy, each player receives 7 cards. The goal is to form sets (3 or 4 cards of the same rank) and sequences (3 or more consecutive cards of the same suit). The first player to meld all their cards into valid combinations and discard their final card wins. It is faster than 13-card rummy and ideal for quick sessions." },
             { q: "What are the rules of 10 card rummy?", a: "10-card rummy deals 10 cards to each player. Similar to 13-card rummy, you must form sets and sequences. With fewer cards than the 13-card variant, games are shorter and require quicker decision-making. It is a popular choice for intermediate players who want a balance of strategy and pace." },
             { q: "Is gin rummy 7 or 10 cards?", a: "Gin Rummy is traditionally played with 10 cards per player. Each player draws and discards to form melds (sets and runs). The game ends when a player 'knocks' with a low enough unmatched card value or achieves 'gin' (all cards melded). Card Rummy's app offers a similar 10-card rummy mode." },
-            { q: "What is the latest version?", a: "V1.230, updated June 8, 2026. Always download the latest version for best performance and security." },
+            { q: "What is the latest version?", a: "V1.231, updated June 11, 2026. Always download the latest version for best performance and security." },
             { q: "Why do I need to enable Unknown Apps?", a: "Because Card Rummy is not on Google Play, Android requires manual permission to install APK files from outside the Play Store." },
           ].map(({ q, a }) => (
             <details key={q} className="bg-white/5 border border-gray-700 rounded-xl p-4 group">
@@ -517,9 +517,9 @@ export default function DownloadPage() {
       <section className="py-10 px-4 max-w-5xl mx-auto text-center">
         <div className="bg-accent/10 border border-accent/30 rounded-2xl p-8">
           <h2 className="text-2xl font-bold text-accent mb-3">Ready to Play?</h2>
-          <p className="text-gray-300 mb-6">Download the latest Card Rummy APK V1.230 and claim your 100% welcome bonus today. (18+ only.)</p>
+          <p className="text-gray-300 mb-6">Download the latest Card Rummy APK V1.231 and claim your 100% welcome bonus today. (18+ only.)</p>
           <DownloadButton label="DOWNLOAD CARD RUMMY APK" />
-          <p className="text-xs text-gray-500 mt-4">Version V1.230 · 49 MB · Free · Android 5.0+</p>
+          <p className="text-xs text-gray-500 mt-4">Version V1.231 · 49 MB · Free · Android 5.0+</p>
         </div>
         <div className="mt-6">
           <Link href="/" className="text-accent hover:underline text-sm">← Back to Home</Link>

@@ -5,13 +5,13 @@ import DownloadButton from '@/components/DownloadButton';
 
 export const metadata: Metadata = {
   title: 'Card Rummy Old Version: Features, Review & Why to Update 2026',
-  description: "Explore Card Rummy's old versions, what features they had, how they compare to V1.230, and why updating to the latest version is always recommended for better performance and security.",
+  description: "Explore Card Rummy's old versions, what features they had, how they compare to V1.231, and why updating to the latest version is always recommended for better performance and security.",
   keywords: ['Card Rummy old version', 'Card Rummy previous version', 'Card Rummy version history', 'Card Rummy APK old', 'Card Rummy update 2026'],
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
   alternates: { canonical: 'https://cardrummy.pk/blog/card-rummy-old-version-features-review' },
   openGraph: {
     title: 'Card Rummy Old Version: Features, Review & Why to Update 2026',
-    description: "Card Rummy version history, old version features, comparison with V1.230, and why you should always use the latest version.",
+    description: "Card Rummy version history, old version features, comparison with V1.231, and why you should always use the latest version.",
     url: 'https://cardrummy.pk/blog/card-rummy-old-version-features-review',
     siteName: 'Card Rummy',
     locale: 'en_PK',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Card Rummy Old Version Review & Features 2026',
-    description: "Card Rummy version history and comparison — old versions vs latest V1.230.",
+    description: "Card Rummy version history and comparison — old versions vs latest V1.231.",
     images: ['https://cardrummy.pk/blogimages/card-rummy-old-versions.webp'],
   },
 };
@@ -31,12 +31,12 @@ export default function OldVersionPage() {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: 'Card Rummy Old Version: Features, Review & Why to Update 2026',
-    description: "Card Rummy old version features, version history, comparison with V1.230, and security reasons to always use the latest APK.",
+    description: "Card Rummy old version features, version history, comparison with V1.231, and security reasons to always use the latest APK.",
     image: 'https://cardrummy.pk/blogimages/card-rummy-old-versions.webp',
     author: { '@type': 'Organization', name: 'Card Rummy', url: 'https://cardrummy.pk' },
     publisher: { '@type': 'Organization', name: 'Card Rummy', logo: { '@type': 'ImageObject', url: 'https://cardrummy.pk/card-rummy.webp' } },
     datePublished: '2026-06-08',
-    dateModified: '2026-06-08',
+    dateModified: '2026-06-11',
     mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://cardrummy.pk/blog/card-rummy-old-version-features-review' },
   };
 
@@ -48,11 +48,11 @@ export default function OldVersionPage() {
           '@context': 'https://schema.org',
           '@type': 'FAQPage',
           mainEntity: [
-            { '@type': 'Question', name: 'Where can I download an old version of Card Rummy?', acceptedAnswer: { '@type': 'Answer', text: 'We strongly advise against downloading old versions. They contain security vulnerabilities and may stop working. Always download the latest V1.230 from the official website cardrummy.pk.' } },
+            { '@type': 'Question', name: 'Where can I download an old version of Card Rummy?', acceptedAnswer: { '@type': 'Answer', text: 'We strongly advise against downloading old versions. They contain security vulnerabilities and may stop working. Always download the latest V1.231 from the official website cardrummy.pk.' } },
             { '@type': 'Question', name: 'Will updating Card Rummy delete my account data?', acceptedAnswer: { '@type': 'Answer', text: 'No. Updating Card Rummy preserves all your account data, balance, VIP progress, and game history.' } },
             { '@type': 'Question', name: 'Why does Card Rummy force me to update?', acceptedAnswer: { '@type': 'Answer', text: 'Mandatory updates are issued for critical security patches and server compatibility. Playing on an outdated version would expose you to security risks and connectivity failures.' } },
             { '@type': 'Question', name: 'Can I go back to an old Card Rummy version after updating?', acceptedAnswer: { '@type': 'Answer', text: 'Technically you can install an old APK, but it will likely fail to connect to the server and lose access to your account. It is not recommended for any reason.' } },
-            { '@type': 'Question', name: 'What is the current latest version of Card Rummy?', acceptedAnswer: { '@type': 'Answer', text: 'The current latest version is V1.230, updated on June 8, 2026. It includes 30+ games, two-factor authentication, improved JazzCash and EasyPaisa transactions, and seasonal bonus events.' } },
+            { '@type': 'Question', name: 'What is the current latest version of Card Rummy?', acceptedAnswer: { '@type': 'Answer', text: 'The current latest version is V1.231, updated on June 11, 2026. It includes 30+ games, two-factor authentication, improved JazzCash and EasyPaisa transactions, and seasonal bonus events.' } },
           ],
         })
       }} />
@@ -93,7 +93,7 @@ export default function OldVersionPage() {
         </div>
 
         <p className="text-gray-300 mb-6 text-lg leading-relaxed">
-          Card Rummy has gone through significant evolution since its launch. Many players search for older versions of the app — either out of nostalgia, to compare features, or because they believe an older version ran better on their device. In this post, we review <strong className="text-white">Card Rummy&apos;s version history</strong>, what the old versions offered, how they compare to the current V1.230, and whether you should ever use an older APK.
+          Card Rummy has gone through significant evolution since its launch. Many players search for older versions of the app — either out of nostalgia, to compare features, or because they believe an older version ran better on their device. In this post, we review <strong className="text-white">Card Rummy&apos;s version history</strong>, what the old versions offered, how they compare to the current V1.231, and whether you should ever use an older APK.
         </p>
 
         <h2 className="text-2xl font-bold text-accent mt-10 mb-4">A Brief History of Card Rummy Versions</h2>
@@ -120,8 +120,8 @@ export default function OldVersionPage() {
                 ["V1.60 – V1.90", "JazzCash integration, Dragon vs Tiger added, improved UI", "Obsolete"],
                 ["V1.100 – V1.150", "VIP system launched, referral program, Andar Bahar added", "Outdated"],
                 ["V1.160 – V1.200", "Slot games added, improved graphics, EasyPaisa support", "Outdated"],
-                ["V1.210 – V1.220", "Two-factor authentication, faster withdrawals, 25+ games", "Outdated"],
-                ["V1.230 (Current)", "30+ games, all security updates, maximum performance", "✅ Latest"],
+                ["V1.210 – V1.230", "Two-factor authentication, faster withdrawals, 25+ games", "Outdated"],
+                ["V1.231 (Current)", "30+ games, all security updates, maximum performance", "✅ Latest"],
               ].map(([version, changes, status], i) => (
                 <tr key={version} className={i % 2 === 0 ? "bg-white/5" : "bg-transparent"}>
                   <td className="px-4 py-3 font-semibold text-gray-300">{version}</td>
@@ -140,7 +140,7 @@ export default function OldVersionPage() {
         <div className="space-y-3 mb-6">
           {[
             { feature: "Simpler Interface", desc: "Early versions had a more stripped-back UI with fewer buttons and categories. Some players who prefer minimalism found navigation faster on older versions." },
-            { feature: "Smaller APK Size", desc: "Early versions were as small as 15–20 MB. The current V1.230 is 49 MB due to higher-quality graphics and more game assets." },
+            { feature: "Smaller APK Size", desc: "Early versions were as small as 15–20 MB. The current V1.231 is 49 MB due to higher-quality graphics and more game assets." },
             { feature: "Classic Game Modes Only", desc: "Some players prefer the original Classic Teen Patti and Classic Rummy without the dozens of variations and side bets added in later versions." },
             { feature: "No Mandatory Updates", desc: "Older APKs could be used without forcing an update. The current system requires updates for security and fair play reasons." },
           ].map(({ feature, desc }) => (
@@ -177,7 +177,7 @@ export default function OldVersionPage() {
         <ol className="space-y-2 mb-6 text-gray-300 text-sm list-none">
           {[
             "Visit cardrummy.pk on your Android browser.",
-            "Download the latest V1.230 APK (49 MB).",
+            "Download the latest V1.231 APK (49 MB).",
             "Tap Install — the update will replace your old version automatically.",
             "All your account data, balance, and VIP progress are preserved.",
           ].map((step, i) => (
@@ -188,7 +188,7 @@ export default function OldVersionPage() {
           ))}
         </ol>
 
-        <h2 className="text-2xl font-bold text-accent mt-10 mb-4">What&apos;s New in V1.230 vs Old Versions</h2>
+        <h2 className="text-2xl font-bold text-accent mt-10 mb-4">What&apos;s New in V1.231 vs Old Versions</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
           <div className="bg-red-900/20 border border-red-700/30 rounded-xl p-5">
             <p className="font-bold text-red-400 mb-3">Old Versions (Pre-V1.200)</p>
@@ -199,7 +199,7 @@ export default function OldVersionPage() {
             </ul>
           </div>
           <div className="bg-green-900/20 border border-green-700/30 rounded-xl p-5">
-            <p className="font-bold text-green-400 mb-3">V1.230 (Current)</p>
+            <p className="font-bold text-green-400 mb-3">V1.231 (Current)</p>
             <ul className="space-y-1 text-sm text-gray-400">
               {["30+ games including slots", "Instant JazzCash & EasyPaisa", "Two-factor authentication", "HD graphics optimized for all devices", "Full VIP system with rebates", "Seasonal tournaments & bonuses"].map(item => (
                 <li key={item} className="flex gap-2"><span className="text-green-400">✓</span><span>{item}</span></li>
@@ -212,7 +212,7 @@ export default function OldVersionPage() {
         <h2 className="text-2xl font-bold text-accent mt-10 mb-5">Frequently Asked Questions</h2>
         <div className="space-y-3 mb-10">
           {[
-            { q: "Where can I download an old version of Card Rummy?", a: "We strongly advise against downloading old versions. They contain security vulnerabilities and may stop working. Always download the latest V1.230 from cardrummy.pk." },
+            { q: "Where can I download an old version of Card Rummy?", a: "We strongly advise against downloading old versions. They contain security vulnerabilities and may stop working. Always download the latest V1.231 from cardrummy.pk." },
             { q: "Will updating to the new version delete my account data?", a: "No. Updating Card Rummy preserves all your account data, balance, VIP progress, and game history." },
             { q: "Why does the app force me to update?", a: "Mandatory updates are issued for critical security patches and server compatibility. Playing on an outdated version would expose you to security risks and connectivity failures." },
             { q: "Can I go back to an old version after updating?", a: "Technically you can install an old APK, but it will likely fail to connect to the server and lose access to your account. It is not recommended." },
@@ -227,7 +227,7 @@ export default function OldVersionPage() {
         </div>
 
         <div className="bg-accent/10 border border-accent/30 rounded-2xl p-8 text-center">
-          <h2 className="text-2xl font-bold text-white mb-3">Download the Latest Card Rummy V1.230</h2>
+          <h2 className="text-2xl font-bold text-white mb-3">Download the Latest Card Rummy V1.231</h2>
           <p className="text-gray-300 mb-6">Get the best version of Card Rummy with 30+ games, fast payments, and full security. (18+ only.)</p>
           <DownloadButton label="DOWNLOAD LATEST VERSION" />
         </div>
