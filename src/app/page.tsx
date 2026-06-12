@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { Metadata } from 'next';
 import DownloadButton from '@/components/DownloadButton';
+import { APP_LAST_UPDATED, APP_LAST_UPDATED_ISO, APP_VERSION } from '@/lib/app-version';
 
 export const metadata: Metadata = {
   title: "Card Rummy APK Download 2026 – Win Real Cash in Pakistan",
@@ -197,7 +198,7 @@ export default function Home() {
         "query-input": "required name=search_term_string"
       }
     },
-    "dateModified": "2026-06-11",
+    "dateModified": APP_LAST_UPDATED_ISO,
     "datePublished": "2026-06-08",
     "author": {
       "@type": "Person",
@@ -288,10 +289,10 @@ export default function Home() {
             />
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
-            Card Rummy APK Download (V1.231) – Play Card Games &amp; Win Real Cash in Pakistan 2026
+            Card Rummy APK Download – Play Card Games &amp; Win Real Cash in Pakistan 2026
           </h1>
           <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-400 mb-6">
-            <span>📅 Last updated: June 11, 2026</span>
+            <span>📅 Last updated: {APP_LAST_UPDATED}</span>
             <span>·</span>
             <span>✅ Reviewed by the Ahmed gaming team</span>
             <span>·</span>
@@ -333,9 +334,9 @@ export default function Home() {
                   ["Developer", "ErioCardRummy Dev"],
                   ["Category", "Cards, Casino, Game"],
                   ["File Size", "49 MB"],
-                  ["Latest Version", "V1.231"],
+                  ["Latest Version", APP_VERSION],
                   ["Required OS", "Android 5.0+"],
-                  ["Last Updated", "June 11, 2026"],
+                  ["Last Updated", APP_LAST_UPDATED],
                   ["Downloads", "500K+"],
                   ["Rating", "4.8 / 5 (200K+ reviews)"],
                   ["Languages", "English, Urdu"],
@@ -361,7 +362,7 @@ export default function Home() {
             When people search &quot;Card Rummy,&quot; they&apos;re looking for a safe, lightweight app where they can deposit with JazzCash or EasyPaisa, play 30+ games, and withdraw winnings quickly. Card Rummy delivers exactly that: a single app divided into clear sections — card games, multiplayer tables, slots, and live games — so beginners and experienced players alike can find a game in seconds.
           </p>
           <div className="bg-green-900/20 border border-green-600/30 rounded-xl p-4 text-sm text-green-300">
-            <strong>Our experience:</strong> We installed Card Rummy V1.231 on a mid-range Android phone (4 GB RAM) and an older 2 GB device. It launched in under 4 seconds, ran without lag through multiple Teen Patti and Dragon vs Tiger rounds, and a test EasyPaisa withdrawal of PKR 500 cleared within minutes.
+            <strong>Our experience:</strong> We installed Card Rummy {APP_VERSION} on a mid-range Android phone (4 GB RAM) and an older 2 GB device. It launched in under 4 seconds, ran without lag through multiple Teen Patti and Dragon vs Tiger rounds, and a test EasyPaisa withdrawal of PKR 500 cleared within minutes.
           </div>
         </section>
 
@@ -1015,7 +1016,7 @@ export default function Home() {
 
         {/* ── WHAT'S NEW ── */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-accent mb-4">What&apos;s New in V1.231</h2>
+          <h2 className="text-2xl font-bold text-accent mb-4">What&apos;s New in {APP_VERSION}</h2>
           <ul className="space-y-2 text-sm text-gray-300 list-none">
             {[
               "New card and slot games added",

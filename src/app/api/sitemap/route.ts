@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { APP_LAST_UPDATED_ISO, APP_VERSION } from '@/lib/app-version';
 
 export async function GET() {
   const baseUrl = 'https://cardrummy.pk';
@@ -14,7 +15,7 @@ export async function GET() {
   const mainPages: PageType[] = [
     {
       url: '/',
-      lastMod: '2026-06-08',
+      lastMod: APP_LAST_UPDATED_ISO,
       changeFreq: 'weekly',
       priority: 1.0,
       images: [
@@ -67,19 +68,19 @@ export async function GET() {
     },
     {
       url: '/download-card-rummy-apk',
-      lastMod: '2026-06-08',
+      lastMod: APP_LAST_UPDATED_ISO,
       changeFreq: 'weekly',
       priority: 0.9,
       images: [
         {
           loc: '/card-rummy.webp',
           title: 'Download Card Rummy APK',
-          caption: 'Download Card Rummy APK V1.231 free for Android'
+          caption: `Download Card Rummy APK ${APP_VERSION} free for Android`
         },
         {
           loc: '/card-rummy-game-pakistan.webp',
           title: 'Card Rummy Game Interface',
-          caption: 'Card Rummy V1.231 game interface preview'
+          caption: `Card Rummy ${APP_VERSION} game interface preview`
         }
       ]
     },

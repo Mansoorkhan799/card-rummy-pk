@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { imageObjectLicensing } from '@/lib/schemaImageLicensing';
 import DownloadButton from '@/components/DownloadButton';
+import { APP_LAST_UPDATED, APP_LAST_UPDATED_ISO, APP_VERSION } from '@/lib/app-version';
 
 export const metadata: Metadata = {
   title: 'Card Rummy for PC – Download & Play on Windows 2026 (BlueStacks Guide)',
@@ -64,7 +65,7 @@ export default function CardRummyForPCPage() {
       }
     },
     "datePublished": "2026-06-08",
-    "dateModified": "2026-06-11",
+    "dateModified": APP_LAST_UPDATED_ISO,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://cardrummy.pk/card-rummy-for-pc"
@@ -106,7 +107,7 @@ export default function CardRummyForPCPage() {
             "step": [
               { "@type": "HowToStep", "position": 1, "name": "Visit Official Website", "text": "Open your browser and go to cardrummy.pk to get the official Card Rummy APK download link." },
               { "@type": "HowToStep", "position": 2, "name": "Install an Android Emulator", "text": "Download and install BlueStacks, LDPlayer, or NoxPlayer on your Windows PC from their official websites." },
-              { "@type": "HowToStep", "position": 3, "name": "Download the Card Rummy APK", "text": "Download the latest Card Rummy APK (V1.231, 49 MB) from cardrummy.pk." },
+              { "@type": "HowToStep", "position": 3, "name": "Download the Card Rummy APK", "text": `Download the latest Card Rummy APK (${APP_VERSION}, 49 MB) from cardrummy.pk.` },
               { "@type": "HowToStep", "position": 4, "name": "Install APK in the Emulator", "text": "Open the emulator and locate the 'Install APK' option. Select the downloaded Card Rummy APK file to install it." },
               { "@type": "HowToStep", "position": 5, "name": "Register and Play", "text": "Once installed, launch Card Rummy inside the emulator, register or log in, and start playing on your PC." }
             ]
@@ -205,7 +206,7 @@ export default function CardRummyForPCPage() {
           className="rounded-2xl mx-auto shadow-lg w-full max-w-2xl"
           loading="lazy"
         />
-        <p className="text-xs text-gray-500 mt-2">Card Rummy V1.231 as seen through an Android emulator on Windows</p>
+        <p className="text-xs text-gray-500 mt-2">Card Rummy {APP_VERSION} as seen through an Android emulator on Windows</p>
       </section>
 
       {/* Download Info Table */}
@@ -229,11 +230,11 @@ export default function CardRummyForPCPage() {
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Latest Version</td>
-                  <td className="py-4 px-6 text-left text-white">V1.231</td>
+                  <td className="py-4 px-6 text-left text-white">{APP_VERSION}</td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Update</td>
-                  <td className="py-4 px-6 text-left text-white">June 11, 2026</td>
+                  <td className="py-4 px-6 text-left text-white">{APP_LAST_UPDATED}</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Downloads</td>

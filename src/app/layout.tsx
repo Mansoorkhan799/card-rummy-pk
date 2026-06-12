@@ -15,6 +15,7 @@ import Footer from "@/components/Footer";
 import DeferredStyles from "@/components/DeferredStyles";
 import ScrollToTopWrapper from "@/components/ScrollToTopWrapper";
 import WebVitalsTracker from "@/components/WebVitalsTracker";
+import { APP_LAST_UPDATED_ISO, APP_VERSION } from "@/lib/app-version";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -293,10 +294,10 @@ export default function RootLayout({
               "url": "https://cardrummy.pk",
               "downloadUrl": "https://pkcardrummy.com/?from_gameid=6191689&channelCode=6113272",
               "installUrl": "https://cardrummy.pk/download-card-rummy-apk",
-              "softwareVersion": "V1.231",
+              "softwareVersion": APP_VERSION,
               "fileSize": "49 MB",
               "datePublished": "2023-01-01",
-              "dateModified": "2026-06-11",
+              "dateModified": APP_LAST_UPDATED_ISO,
               "inLanguage": ["en", "ur"],
               "countriesSupported": "PK",
               "offers": {
