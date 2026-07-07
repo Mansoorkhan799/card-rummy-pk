@@ -38,6 +38,16 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: "fix-ip-limit-exceeds",
+    title: "Fix IP Limit Exceeds Error in Card Rummy",
+    description: "Getting IP limit exceeds on Card Rummy? Step-by-step fixes for VPN issues, multiple accounts, device limits, and login errors.",
+    image: "/blogimages/create-card-rummy-account-and-login.webp",
+    imageAlt: "Fix Card Rummy IP limit exceeds error guide",
+    date: "July 2026",
+    readTime: "5 min read",
+    featured: false,
+  },
+  {
     slug: "is-card-rummy-real-or-fake",
     title: "Is Card Rummy Real or Fake to Earn Money?",
     description: "Discover the truth about Card Rummy legitimacy, payment methods, and how to identify fake apps. Complete guide for 2026.",
@@ -118,14 +128,15 @@ const itemListSchema = {
   '@type': 'ItemList',
   name: 'Card Rummy Blog Articles',
   url: 'https://cardrummy.pk/blog',
-  numberOfItems: 6,
+  numberOfItems: 7,
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Is Card Rummy Real or Fake to Earn Money?', url: 'https://cardrummy.pk/blog/is-card-rummy-real-or-fake', image: 'https://cardrummy.pk/blogimages/is-card-rummy-real-or-fake.webp' },
-    { '@type': 'ListItem', position: 2, name: 'How to Create a Card Rummy Account and Login', url: 'https://cardrummy.pk/blog/create-card-rummy-account-and-login', image: 'https://cardrummy.pk/blogimages/create-card-rummy-account-and-login.webp' },
-    { '@type': 'ListItem', position: 3, name: 'Tips to Win Big in Card Rummy – Expert Strategies 2026', url: 'https://cardrummy.pk/blog/tips-to-win-big-in-card-rummy', image: 'https://cardrummy.pk/blogimages/tips-and-tricks-to-win-big-in-card-rummy.webp' },
-    { '@type': 'ListItem', position: 4, name: 'How to Use Card Rummy App in Pakistan – Complete Beginner\'s Guide 2026', url: 'https://cardrummy.pk/blog/how-to-use-card-rummy-app-pakistan-guide', image: 'https://cardrummy.pk/blogimages/use-card-rummy-app-pakistan.webp' },
-    { '@type': 'ListItem', position: 5, name: 'Card Rummy Bonuses Explained: Welcome Bonus, Rebate & VIP Rewards', url: 'https://cardrummy.pk/blog/card-rummy-bonuses-vip-guide', image: 'https://cardrummy.pk/blogimages/card-rummy-all-bonuses-explained.webp' },
-    { '@type': 'ListItem', position: 6, name: 'Card Rummy Old Version: Features, Review & Details 2026', url: 'https://cardrummy.pk/blog/card-rummy-old-version-features-review', image: 'https://cardrummy.pk/blogimages/card-rummy-old-versions.webp' },
+    { '@type': 'ListItem', position: 1, name: 'Fix IP Limit Exceeds Error in Card Rummy', url: 'https://cardrummy.pk/blog/fix-ip-limit-exceeds', image: 'https://cardrummy.pk/blogimages/create-card-rummy-account-and-login.webp' },
+    { '@type': 'ListItem', position: 2, name: 'Is Card Rummy Real or Fake to Earn Money?', url: 'https://cardrummy.pk/blog/is-card-rummy-real-or-fake', image: 'https://cardrummy.pk/blogimages/is-card-rummy-real-or-fake.webp' },
+    { '@type': 'ListItem', position: 3, name: 'How to Create a Card Rummy Account and Login', url: 'https://cardrummy.pk/blog/create-card-rummy-account-and-login', image: 'https://cardrummy.pk/blogimages/create-card-rummy-account-and-login.webp' },
+    { '@type': 'ListItem', position: 4, name: 'Tips to Win Big in Card Rummy – Expert Strategies 2026', url: 'https://cardrummy.pk/blog/tips-to-win-big-in-card-rummy', image: 'https://cardrummy.pk/blogimages/tips-and-tricks-to-win-big-in-card-rummy.webp' },
+    { '@type': 'ListItem', position: 5, name: 'How to Use Card Rummy App in Pakistan – Complete Beginner\'s Guide 2026', url: 'https://cardrummy.pk/blog/how-to-use-card-rummy-app-pakistan-guide', image: 'https://cardrummy.pk/blogimages/use-card-rummy-app-pakistan.webp' },
+    { '@type': 'ListItem', position: 6, name: 'Card Rummy Bonuses Explained: Welcome Bonus, Rebate & VIP Rewards', url: 'https://cardrummy.pk/blog/card-rummy-bonuses-vip-guide', image: 'https://cardrummy.pk/blogimages/card-rummy-all-bonuses-explained.webp' },
+    { '@type': 'ListItem', position: 7, name: 'Card Rummy Old Version: Features, Review & Details 2026', url: 'https://cardrummy.pk/blog/card-rummy-old-version-features-review', image: 'https://cardrummy.pk/blogimages/card-rummy-old-versions.webp' },
   ],
 };
 

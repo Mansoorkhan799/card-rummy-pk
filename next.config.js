@@ -31,6 +31,17 @@ const nextConfig = {
         destination: '/download-card-rummy-apk',
         permanent: true,
       },
+      // Old blog slugs → current pages (Google Search Console 404 fixes)
+      {
+        source: '/blog/how-to-deposit-money',
+        destination: '/deposit-money-in-card-rummy',
+        permanent: true,
+      },
+      {
+        source: '/blog/how-to-withdraw-money',
+        destination: '/withdraw-money-from-card-rummy',
+        permanent: true,
+      },
       // /about was indexed by Google but the real page is /about-us
       {
         source: '/about',

@@ -157,6 +157,13 @@ export async function GET() {
 
   const blogPosts: PageType[] = [
     {
+      url: '/blog/fix-ip-limit-exceeds',
+      lastMod: '2026-07-07',
+      changeFreq: 'monthly',
+      priority: 0.7,
+      images: [{ loc: '/blogimages/create-card-rummy-account-and-login.webp', title: 'Fix Card Rummy IP Limit Exceeds', caption: 'How to fix IP limit exceeds error in Card Rummy' }]
+    },
+    {
       url: '/blog/is-card-rummy-real-or-fake',
       lastMod: '2026-06-08',
       changeFreq: 'monthly',
